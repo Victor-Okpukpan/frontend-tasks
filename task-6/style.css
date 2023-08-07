@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column ;
+    width: 50%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.item-1{
+    height: 30%;
+    background-color: red;
+}
+.item-2{
+    height: 70%;
+    background-color: blue;
+}

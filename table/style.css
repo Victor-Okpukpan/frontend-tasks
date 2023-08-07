@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul li{
+    display: inline;
+    padding: 20px;
+}
+body{
+    margin-top: 30px;
+    background-color: black;
+}
+.table-1 tr:nth-child(1){
+    background-color: red!important;
+    color: white
+}
+.table-2 tr:nth-child(1){
+    background-color: green!important;
+    color: white
+}
+.table-3 tr:nth-child(1){
+    background-color: blue!important;
+    color: white
+}
+table{
+    border-collapse: collapse;
+    text-align: left;
+    width: 70%;
+    background-color: white;
+    margin: 0 auto 30px auto;
+}
+th, td{
+    padding: 10px;
+}
+table tr:nth-child(odd){
+    background-color: rgba(0, 0, 0, 0.1);
+}
